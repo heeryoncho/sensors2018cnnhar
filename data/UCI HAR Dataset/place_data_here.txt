@@ -1,0 +1,33 @@
+------------------------------
+See paper:  Sensors 2018, 18(4), 1055; https://doi.org/10.3390/s18041055
+"Divide and Conquer-Based 1D CNN Human Activity Recognition Using Test Data Sharpening"
+by Heeryon Cho & Sang Min Yoon
+------------------------------
+
+The UCI HAR Dataset used in the paper can be downloaded from: 
+https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones
+
+Unzipped dataset should be placed inside the '../data/' folder.
+
+Below shows unzipped data's directory structure.
+
+
+-----------------------------------------------------------
+UCI HAR Dataset/
+├── activity_labels.txt
+├── features_info.txt
+├── features.txt
+├── README.txt
+├── test
+│   ├── subject_test.txt
+│   ├── X_test.txt
+│   └── y_test.txt
+└── train
+    ├── subject_train.txt
+    ├── X_train.txt
+    ├── y_train_dyna.txt
+    ├── y_train_stat.txt
+    └── y_train.txt
+
+2 directories, 12 files
+-----------------------------------------------------------

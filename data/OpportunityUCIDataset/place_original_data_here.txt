@@ -1,0 +1,120 @@
+------------------------------
+See paper:  Sensors 2018, 18(4), 1055; https://doi.org/10.3390/s18041055
+"Divide and Conquer-Based 1D CNN Human Activity Recognition Using Test Data Sharpening"
+by Heeryon Cho & Sang Min Yoon
+------------------------------
+
+The Opportunity UCI Dataset used in the paper can be downloaded from:
+https://archive.ics.uci.edu/ml/datasets/opportunity+activity+recognition
+
+Unzipped dataset should be placed inside the '../data/' folder.
+
+Below shows unzipped data's directory structure.
+
+Only the '.dat' files under the 'dataset' folder are used in the paper.
+
+
+-----------------------------------------------------------
+OpportunityUCIDataset
+├── dataset
+│   ├── column_names.txt
+│   ├── label_legend.txt
+│   ├── S1-ADL1.dat
+│   ├── S1-ADL2.dat
+│   ├── S1-ADL3.dat
+│   ├── S1-ADL4.dat
+│   ├── S1-ADL5.dat
+│   ├── S1-Drill.dat
+│   ├── S2-ADL1.dat
+│   ├── S2-ADL2.dat
+│   ├── S2-ADL3.dat
+│   ├── S2-ADL4.dat
+│   ├── S2-ADL5.dat
+│   ├── S2-Drill.dat
+│   ├── S3-ADL1.dat
+│   ├── S3-ADL2.dat
+│   ├── S3-ADL3.dat
+│   ├── S3-ADL4.dat
+│   ├── S3-ADL5.dat
+│   ├── S3-Drill.dat
+│   ├── S4-ADL1.dat
+│   ├── S4-ADL2.dat
+│   ├── S4-ADL3.dat
+│   ├── S4-ADL4.dat
+│   ├── S4-ADL5.dat
+│   └── S4-Drill.dat
+├── doc
+│   ├── ActivityRecognitionBaselines.pdf
+│   ├── Chavarriaga - The Opportunity challenge-A benchmark database for on-body sensor-based activity recognition (PRL, 2013).pdf
+│   ├── dataset_statistics.pdf
+│   ├── documentation.html
+│   ├── img
+│   │   ├── arena3.png
+│   │   ├── bt_obj1.jpg
+│   │   ├── Fig1Cl.png
+│   │   ├── Fig1Cr.png
+│   │   ├── label.png
+│   │   ├── logos-opportunity-final_50p_challenge.png
+│   │   ├── logos-opportunity-final_50p.png
+│   │   ├── motion_jacket_complete.jpg
+│   │   ├── objects.JPG
+│   │   ├── reed.jpg
+│   │   ├── Reed_Switch_Configuration.png
+│   │   └── usb_sensor.jpg
+│   ├── locomotion_instances.tex
+│   ├── mlgesture_instances.tex
+│   ├── OPPORTUNITY_D5.1.pdf
+│   └── Roggen - Collecting complex activity datasets in highly rich networked sensor environments (INSS, 2010).pdf
+├── README
+└── scripts
+    ├── benchmark
+    │   ├── classifiers
+    │   │   ├── classifyAndReject.m
+    │   │   ├── GausianClassify.m
+    │   │   ├── knn.m
+    │   │   └── nccClassify.m
+    │   ├── data
+    │   ├── features
+    │   │   ├── expandingLabels.m
+    │   │   ├── featureExtraction.m
+    │   │   ├── featureReduction.m
+    │   │   ├── missingValueHandler.m
+    │   │   ├── movtimavg.m
+    │   │   └── windowingLabels.m
+    │   ├── measures
+    │   │   ├── AreaUnderROC.m
+    │   │   ├── clsAccuracy.m
+    │   │   ├── measures.m
+    │   │   ├── rocCurves.m
+    │   │   ├── separate.m
+    │   │   ├── ward
+    │   │   │   ├── a-categorisation-of-performance-errors-in-continuous-context-recognition-ward-2005.pdf
+    │   │   │   ├── mset.m
+    │   │   │   ├── mset_segments.m
+    │   │   │   ├── plot_mset_errors.m
+    │   │   │   ├── README
+    │   │   │   ├── read_seg_info.m
+    │   │   │   ├── test_mset_plotting.m
+    │   │   │   ├── wardbars.m
+    │   │   │   └── write_seg_info.m
+    │   │   └── wardbars.m
+    │   ├── parameters.m
+    │   ├── prepareData.m
+    │   ├── readme.txt
+    │   ├── res2mat.m
+    │   ├── RunBenchmarking.m
+    │   ├── tanalyze.m
+    │   └── tarrange.m
+    └── DataExplorer
+        ├── label_panorama_2009.fig
+        ├── label_panorama_2009.m
+        ├── label_panorama.fig
+        ├── label_panorama.m
+        ├── readme.txt
+        ├── root.txt
+        ├── signal_scope_Callback.m
+        ├── signal_scroll_Callback.m
+        └── underscore_clean.m
+
+11 directories, 88 files
+-----------------------------------------------------------
