@@ -1,7 +1,7 @@
 # Divide and Conquer-based 1D CNN Human Activity Recognition Using Test Data Sharpening
 This is the code for the Sensors 2018 paper [Divide and Conquer-based 1D CNN Human Activity Recognition Using Test Data Sharpening](http://www.mdpi.com/1424-8220/18/4/1055) by Heeryon Cho and Sang Min Yoon. 
 
-![](https://github.com/rubenvillegas/cvpr2018nkn/blob/master/fig_overview.png)
+![](https://github.com/heeryoncho/sensors2018cnnhar/blob/master/fig_overview.png)
 
 ## Requirements
 Our code runs with:
